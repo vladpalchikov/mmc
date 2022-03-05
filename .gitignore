@@ -1,0 +1,14 @@
+/vendor
+/node_modules
+/public/storage
+/storage/backups
+/storage/framework
+/storage/imports
+/storage/exports
+/public/exports
+Homestead.yaml
+Homestead.json
+.env
+.ev
+composer.phar
+/public/.htaccess

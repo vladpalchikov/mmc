@@ -1,0 +1,34 @@
+.service-counter {
+    display: table-cell;
+    text-align: right;
+    padding: 3px 10px 3px 0px;
+    width: 30px;
+    font-weight: bold;
+}
+
+.service-title{
+    display: table-cell;
+    text-align: left;
+    padding: 3px 0px 3px 0px;
+}
+
+.table-header-rotated {
+    border-collapse: collapse;   
+}
+
+.table-bordered>tbody>tr>td,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>td,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>thead>tr>th {
+    border: 1px solid #000 !important;
+    font-size: 12px;
+}
+
+@media print {
+    .btn-danger {
+        display: none;
+    }
+    
+}
